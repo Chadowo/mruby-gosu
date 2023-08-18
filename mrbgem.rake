@@ -15,5 +15,5 @@ MRuby::Gem::Specification.new("mruby-gosu") do |spec|
   # cxx.flags << "/std:c++11"
 
   linker.library_paths << File.expand_path("../gosu/lib64")
-  linker.libraries.push("gosu-ffi", "Gosu")
+  linker.libraries.push("gosu-ffi", "gosu")
 end
