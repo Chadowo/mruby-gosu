@@ -1,4 +1,12 @@
 module Gosu
+  MAJOR_VERSION = 1
+  MINOR_VERSION = 4
+  POINT_VERSION = 3
+  VERSION = "#{MAJOR_VERSION}.#{MINOR_VERSION}.#{POINT_VERSION}".freeze
+  LICENSES = "This software may utilize code from the following third-party libraries:\n" \
+             "\n" \
+             "Gosu, https://www.libgosu.org, MIT License, https://opensource.org/licenses/MIT\n" \
+             "SDL 2, https://www.libsdl.org, MIT License, https://opensource.org/licenses/MIT\n".freeze
   WF_FULLSCREEN = 1
   WF_RESIZABLE = 2
   WF_BORDERLESS = 4
